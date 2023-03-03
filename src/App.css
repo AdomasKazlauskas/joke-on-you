@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #7ebdc2;
   min-height: 100vh;
+}
+
+.mainFrame {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 20px;
+  margin: 0px 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.frameTitle {
+  color: #4d7477;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.frameLine {
+  color: #d0ddd7;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  display: inline-block;
+  padding: 7px;
+  margin: 5px 700px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.1em;
+  border: none;
+  outline: none;
+  text-align: center;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  background-color: #4d7477;
+  color: #d0ddd7;
+  cursor: pointer;
+}
+
+.typeOfJoke {
+  color: #4d7477;
 }
